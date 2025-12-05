@@ -9,4 +9,8 @@ export default defineConfig({
     tailwindcss(),
     basicSsl()
   ],
+  base: '/genaidemo/',
+  server: {
+    port: 9000,
+  },
 })
