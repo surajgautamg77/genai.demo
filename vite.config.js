@@ -7,10 +7,11 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    basicSsl()
   ],
   base: '/genaidemo/',
   server: {
     port: 9000,
+    allowedHosts: ['aibot14.studyineurope.xyz'], 
+    host: true,
   },
 })
