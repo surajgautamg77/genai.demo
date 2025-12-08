@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: '/genaidemo/',
+  base: '/genaidemo',
   server: {
     port: 9000,
     allowedHosts: ['aibot14.studyineurope.xyz'], 
